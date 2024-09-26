@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class Form5
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,11 +22,10 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.btnYes = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -34,63 +33,53 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(285, 39)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(863, 9)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(227, 46)
+        Me.Label1.Size = New System.Drawing.Size(1031, 108)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Game Over!"
+        Me.Label1.Text = "YAYYYYYYYY!!!!!!!!!!!!"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(442, 117)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(1852, 108)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "KIM JUNG UN IS VERY HAPPY NOW!!!!!"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(160, 105)
+        Me.PictureBox1.Location = New System.Drawing.Point(62, 228)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(424, 256)
+        Me.PictureBox1.Size = New System.Drawing.Size(2559, 643)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
-        '
-        'Label2
-        '
-        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(94, 497)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(173, 39)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Play Again?"
-        '
-        'btnYes
-        '
-        Me.btnYes.Location = New System.Drawing.Point(332, 496)
-        Me.btnYes.Name = "btnYes"
-        Me.btnYes.Size = New System.Drawing.Size(144, 40)
-        Me.btnYes.TabIndex = 3
-        Me.btnYes.Text = "Yes"
-        Me.btnYes.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(503, 496)
+        Me.Button1.Location = New System.Drawing.Point(893, 877)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(144, 40)
-        Me.Button1.TabIndex = 4
-        Me.Button1.Text = "No"
+        Me.Button1.Size = New System.Drawing.Size(957, 93)
+        Me.Button1.TabIndex = 3
+        Me.Button1.Text = "Exit"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Form2
+        'Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(787, 679)
+        Me.ClientSize = New System.Drawing.Size(2714, 996)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.btnYes)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form2"
-        Me.Text = "LoseScreen"
+        Me.Name = "Form5"
+        Me.Text = "Form5"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -98,8 +87,7 @@ Partial Class Form2
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents btnYes As Button
+    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button1 As Button
 End Class
